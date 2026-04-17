@@ -1,6 +1,6 @@
 FROM almalinux:9
 RUN dnf install nginx -y
-RUN useradd sivakumar
+RUN useradd Vikram
 
-USER sivakumar
+USER vikram
 CMD ["sleep", "1000"]
