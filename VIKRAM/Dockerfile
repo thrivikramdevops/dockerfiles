@@ -3,5 +3,5 @@ RUN dnf install nginx
 LABEL   author="Vikram" \
         course="Dockers" \
         description="course"
-CMD["google.com"]
-ENTRYPOINT["ping"]
+CMD ["google.com"]
+ENTRYPOINT ["ping"]
