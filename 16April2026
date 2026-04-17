@@ -1,0 +1,511 @@
+    1  13/01/26 18:30:51 sudo dnf update -y 
+    2  13/01/26 18:30:51 sudo dnf update -y 
+    3  13/01/26 18:37:26 sudo init 0 
+    4  16/04/26 04:12:34 clear
+    5  16/04/26 04:12:36 pwd
+    6  16/04/26 04:13:05 sudo dnf -y install dnf-plugins-core
+    7  16/04/26 04:14:09 sudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+    8  16/04/26 04:14:10 sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+    9  16/04/26 04:14:34 sudo systemctl start docker
+   10  16/04/26 04:14:36 sudo systemctl enable docker
+   11  16/04/26 04:14:37 sudo usermod -aG docker ec2-user
+   12  16/04/26 04:20:02 docker ps
+   13  16/04/26 04:12:34 clear
+   14  16/04/26 04:12:36 pwd
+   15  16/04/26 04:13:05 sudo dnf -y install dnf-plugins-core
+   16  16/04/26 04:14:09 sudo dnf config-manager --add-repo https://download.docker.com/linux/rhel/docker-ce.repo
+   17  16/04/26 04:14:10 sudo dnf install docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin -y
+   18  16/04/26 04:14:34 sudo systemctl start docker
+   19  16/04/26 04:14:36 sudo systemctl enable docker
+   20  16/04/26 04:14:37 sudo usermod -aG docker ec2-user
+   21  16/04/26 04:20:02 docker ps
+   22  16/04/26 04:56:29 pwd
+   23  16/04/26 04:58:46 docker ps
+   24  16/04/26 04:58:54 docker --hel[
+   25  16/04/26 04:58:58 docker --help
+   26  16/04/26 05:00:11 docker start nginx
+   27  16/04/26 05:00:32 dock create nginx
+   28  16/04/26 05:00:40 docker create nginx
+   29  16/04/26 05:00:54 ps -ef|grpe nginx
+   30  16/04/26 05:01:01 ps -ef|grep nginx
+   31  16/04/26 05:01:15 docker ps
+   32  16/04/26 05:01:20 docker images
+   33  16/04/26 05:01:30 docker start nginx
+   34  16/04/26 05:01:36 docker start -help
+   35  16/04/26 05:01:42 docker start --help
+   36  16/04/26 05:01:52 docker start
+   37  16/04/26 05:02:10 docker start nginx:latest
+   38  16/04/26 05:02:22 docker start  7f0adca1fc6c
+   39  16/04/26 05:02:33 docker images
+   40  16/04/26 05:02:57 docker pull nginx
+   41  16/04/26 05:03:05 docker images
+   42  16/04/26 05:03:35 docker ps -a
+   43  16/04/26 05:03:42 docker ps
+   44  16/04/26 05:03:45 docker ps -a
+   45  16/04/26 05:04:36 docker start 661b4c52f3cd
+   46  16/04/26 05:04:43 docker ps -a
+   47  16/04/26 05:05:45 curl http://54.84.214.88/
+   48  16/04/26 05:05:52 curl http://54.84.214.88:80/
+   49  16/04/26 05:06:07 docker ps -a
+   50  16/04/26 05:06:20 docker rm 661b4c52f3cd
+   51  16/04/26 05:06:31 docker stop  661b4c52f3cd
+   52  16/04/26 05:06:35 docker ps -a
+   53  16/04/26 05:06:42 docker rm 661b4c52f3cd
+   54  16/04/26 05:06:45 docker ps -a
+   55  16/04/26 05:07:10 df -h
+   56  16/04/26 05:07:13 df -hT
+   57  16/04/26 05:08:48 lventend -L +20GB /dev/mapper/RootVG-varVol
+   58  16/04/26 05:09:02 lvextend -L +10GB /dev/mapper/RootVG-varVol
+   59  16/04/26 05:09:13 sudo lvextend -L +10GB /dev/mapper/RootVG-varVol
+   60  16/04/26 05:09:36 xfs_growfs /var
+   61  16/04/26 05:09:43 sudo xfs_growfs /var
+   62  16/04/26 05:10:07 ls -lrt
+   63  16/04/26 05:10:10 ls -lrt /var/lib/docker
+   64  16/04/26 05:10:34 docker run -p 80:80 nginx
+   65  16/04/26 05:15:44 docker run -d -p 80:80 nginx
+   66  16/04/26 05:15:57 ls -lrt /var/log/ngin
+   67  16/04/26 05:16:02 ls -lrt /var/log/
+   68  16/04/26 05:16:19 ls -lrt /etc/
+   69  16/04/26 05:16:28 pwd
+   70  16/04/26 05:16:30 ls -lrt
+   71  16/04/26 05:17:10 curl http://54.84.214.88/
+   72  16/04/26 05:17:19 whereis nginx
+   73  16/04/26 05:17:57 ps -ef 
+   74  16/04/26 05:18:05 ps -ef |grep nginx
+   75  16/04/26 05:18:13 whereis nginx
+   76  16/04/26 05:20:14 pwd
+   77  16/04/26 05:20:16 ls -lrt
+   78  16/04/26 05:20:57 docker ps
+   79  16/04/26 05:21:06 docker status 8c6b45460e08
+   80  16/04/26 05:22:24 docker exec  -it 8c6b45460e08
+   81  16/04/26 05:22:49 docker exec  -it 8c6b45460e08 ssh
+   82  16/04/26 05:22:55 docker exec  -it 8c6b45460e08 bash
+   83  16/04/26 05:37:28 docker ps
+   84  16/04/26 05:37:34 docker ps -a
+   85  16/04/26 05:37:59 docker kill 8c6b45460e08
+   86  16/04/26 05:38:02 ls -lrt
+   87  16/04/26 05:38:06 docker ps -a
+   88  16/04/26 05:38:15 docker rm nginx
+   89  16/04/26 05:38:21 docker rm -f nginx
+   90  16/04/26 05:38:27 docker rmi nginx
+   91  16/04/26 05:38:42 docker rm 8c6b45460e08
+   92  16/04/26 05:38:45 docker rmi nginx
+   93  16/04/26 05:38:57 docker images
+   94  16/04/26 05:39:14 docker rm 7f0adca1fc6c
+   95  16/04/26 05:39:32 docker rmi 7f0adca1fc6c
+   96  16/04/26 05:39:43 docker rm f 7f0adca1fc6c
+   97  16/04/26 05:39:49 docker rm -f 7f0adca1fc6c
+   98  16/04/26 05:39:59 docker images
+   99  16/04/26 05:40:30 docker rm -f  7f0adca1fc6c
+  100  16/04/26 05:40:41 docker rm nginx
+  101  16/04/26 05:40:46 docker images
+  102  16/04/26 05:40:59 docker untag nginx
+  103  16/04/26 05:41:10 docker untag nginx:latest
+  104  16/04/26 05:41:53 pwd
+  105  16/04/26 05:42:11 git https://github.com/thrivikramdevops/dockerfiles.git
+  106  16/04/26 05:42:21 git clone https://github.com/thrivikramdevops/dockerfiles.git
+  107  16/04/26 05:42:25 pwd
+  108  16/04/26 05:42:40 rpm -qa |grep git
+  109  16/04/26 05:42:46 pwd
+  110  16/04/26 05:42:54 cd dockerfiles/
+  111  16/04/26 05:42:55 ls -lrt
+  112  16/04/26 05:42:59 git init
+  113  16/04/26 05:43:12 cd FROM/
+  114  16/04/26 05:43:13 ls -lr
+  115  16/04/26 05:43:15 ls -lrt
+  116  16/04/26 05:43:38 docker build -t .
+  117  16/04/26 05:43:59 docker build -t nginx .
+  118  16/04/26 05:44:42 docker images
+  119  16/04/26 05:47:51 docker ps
+  120  16/04/26 05:47:55 docker ps-a
+  121  16/04/26 05:47:57 docker ps -a
+  122  16/04/26 05:48:24 docker rm nginx:latest
+  123  16/04/26 05:48:31 docker rm -t nginx:latest
+  124  16/04/26 05:48:41 docker rm 456f20e540a9
+  125  16/04/26 05:48:46 docker rm -f 456f20e540a9
+  126  16/04/26 05:49:01 docker build -t from .
+  127  16/04/26 05:49:11 docker images
+  128  16/04/26 05:51:29 docker login
+  129  16/04/26 05:52:30 docker images
+  130  16/04/26 05:52:39 docker push from:latest
+  131  16/04/26 05:53:31 docker push docker.io/thrivikramdevops/from
+  132  16/04/26 05:54:43 docker images
+  133  16/04/26 05:55:12 docker tag from:latest thrivikramdevops/from:latest
+  134  16/04/26 05:55:15 docker images
+  135  16/04/26 05:56:20 docker push docker.io/thrivikramdevops/from
+  136  16/04/26 05:58:19 docker inspect from:latest
+  137  16/04/26 05:58:53 docker pull nginx
+  138  16/04/26 05:58:57 docker images
+  139  16/04/26 05:59:09 docker pull nodejs
+  140  16/04/26 05:59:37 docker inspect nginx:latest
+  141  16/04/26 06:01:50 pwd
+  142  16/04/26 06:03:39 docker ps -a
+  143  16/04/26 06:03:43 docker ps -a -q
+  144  16/04/26 06:03:56 docker rm 'docker ps -a -q'
+  145  16/04/26 06:04:04 docker rm -f 'docker ps -a -q'
+  146  16/04/26 06:04:42 docker rmi images -f 'docker ps -a -q'
+  147  16/04/26 06:04:55 docker -f  rmi images 'docker ps -a -q'
+  148  16/04/26 06:05:01 docker -f rmi images 'docker ps -a -q'
+  149  16/04/26 06:05:09 docker -f rm images 'docker ps -a -q'
+  150  16/04/26 06:05:19 docker rm -f images 'docker ps -a -q'
+  151  16/04/26 06:05:25 docker images 
+  152  16/04/26 06:06:09 docker rmi -f images 'docker ps -a -q'
+  153  16/04/26 06:06:24 docker images
+  154  16/04/26 06:06:27 docker images -a
+  155  16/04/26 06:06:30 docker images -a -q
+  156  16/04/26 06:06:49 docker rmi images 'docker images -a -q'
+  157  16/04/26 06:06:58 docker rmi images -f 'docker images -a -q'
+  158  16/04/26 06:07:08 docker rmi -f images 'docker images -a -q'
+  159  16/04/26 06:07:15 docker images
+  160  16/04/26 06:07:34 docker rmi -f images 'docker images -a -q'
+  161  16/04/26 06:07:41 docker images
+  162  16/04/26 06:07:58 docker rm cbc4ded26947
+  163  16/04/26 06:08:05 docker rm -f  cbc4ded26947
+  164  16/04/26 06:08:12 docker rmi -f  cbc4ded26947
+  165  16/04/26 06:08:24 docker rmi -f 'docker images -a -q'
+  166  16/04/26 06:08:33 'docker images -a -q'
+  167  16/04/26 06:08:47 docker images
+  168  16/04/26 06:11:30 docker ps -a -q
+  169  16/04/26 06:11:48 docker rm -f 'docker ps -a -q'
+  170  16/04/26 06:11:58 docker rm 'docker ps -a -q'
+  171  16/04/26 06:12:08 docker rm 18494f127c4f
+  172  16/04/26 06:12:16 docker ps -a -q
+  173  16/04/26 06:12:20 docker ps -a
+  174  16/04/26 06:12:26 docker images
+  175  16/04/26 06:14:36 docker rmi -f 'docker images -a -q'
+  176  16/04/26 06:14:44 docker images
+  177  16/04/26 06:14:53 docker rm 7f0adca1fc6c
+  178  16/04/26 06:15:02 docker rmi 7f0adca1fc6c
+  179  16/04/26 06:16:00 docker pull thrivikramdevops/from
+  180  16/04/26 06:16:52 cd ../RUN/
+  181  16/04/26 06:16:59 docker build --no-cache --progress=plain -t run:v1
+  182  16/04/26 06:19:17 docker build -t run:v1
+  183  16/04/26 06:19:36 docker buildx build -t run:v1
+  184  16/04/26 06:20:12 sudo dnf install docker -y
+  185  16/04/26 06:20:31 docker build -t run:v1
+  186  16/04/26 06:20:41 docker buildx build --help'
+  187  16/04/26 06:20:46 docker buildx build --help
+  188  16/04/26 06:21:51 docker images
+  189  16/04/26 06:22:29 docker build -t run:v1 .
+  190  16/04/26 06:24:50 docker build --no-cache --progress-t run:v1 .
+  191  16/04/26 06:24:55 docker build --no-cache --progress -t run:v1 .
+  192  16/04/26 06:25:12 docker build --no-cache --progress:plain -t run:v1 .
+  193  16/04/26 06:25:41 docker build -t --no-cache --progress:plain run:v1 .
+  194  16/04/26 06:25:54 docker build --no-cache --progress=plain -t run:v1 .
+  195  16/04/26 06:26:49 docker images
+  196  16/04/26 06:26:59 docker ps
+  197  16/04/26 06:27:02 docker ps -a
+  198  16/04/26 04:56:29 pwd
+  199  16/04/26 04:58:46 docker ps
+  200  16/04/26 04:58:54 docker --hel[
+  201  16/04/26 04:58:58 docker --help
+  202  16/04/26 05:00:11 docker start nginx
+  203  16/04/26 05:00:32 dock create nginx
+  204  16/04/26 05:00:40 docker create nginx
+  205  16/04/26 05:00:54 ps -ef|grpe nginx
+  206  16/04/26 05:01:01 ps -ef|grep nginx
+  207  16/04/26 05:01:15 docker ps
+  208  16/04/26 05:01:20 docker images
+  209  16/04/26 05:01:30 docker start nginx
+  210  16/04/26 05:01:36 docker start -help
+  211  16/04/26 05:01:42 docker start --help
+  212  16/04/26 05:01:52 docker start
+  213  16/04/26 05:02:10 docker start nginx:latest
+  214  16/04/26 05:02:22 docker start  7f0adca1fc6c
+  215  16/04/26 05:02:33 docker images
+  216  16/04/26 05:02:57 docker pull nginx
+  217  16/04/26 05:03:05 docker images
+  218  16/04/26 05:03:35 docker ps -a
+  219  16/04/26 05:03:42 docker ps
+  220  16/04/26 05:03:45 docker ps -a
+  221  16/04/26 05:04:36 docker start 661b4c52f3cd
+  222  16/04/26 05:04:43 docker ps -a
+  223  16/04/26 05:05:45 curl http://54.84.214.88/
+  224  16/04/26 05:05:52 curl http://54.84.214.88:80/
+  225  16/04/26 05:06:07 docker ps -a
+  226  16/04/26 05:06:20 docker rm 661b4c52f3cd
+  227  16/04/26 05:06:31 docker stop  661b4c52f3cd
+  228  16/04/26 05:06:35 docker ps -a
+  229  16/04/26 05:06:42 docker rm 661b4c52f3cd
+  230  16/04/26 05:06:45 docker ps -a
+  231  16/04/26 05:07:10 df -h
+  232  16/04/26 05:07:13 df -hT
+  233  16/04/26 05:08:48 lventend -L +20GB /dev/mapper/RootVG-varVol
+  234  16/04/26 05:09:02 lvextend -L +10GB /dev/mapper/RootVG-varVol
+  235  16/04/26 05:09:13 sudo lvextend -L +10GB /dev/mapper/RootVG-varVol
+  236  16/04/26 05:09:36 xfs_growfs /var
+  237  16/04/26 05:09:43 sudo xfs_growfs /var
+  238  16/04/26 05:10:07 ls -lrt
+  239  16/04/26 05:10:10 ls -lrt /var/lib/docker
+  240  16/04/26 05:10:34 docker run -p 80:80 nginx
+  241  16/04/26 05:15:44 docker run -d -p 80:80 nginx
+  242  16/04/26 05:15:57 ls -lrt /var/log/ngin
+  243  16/04/26 05:16:02 ls -lrt /var/log/
+  244  16/04/26 05:16:19 ls -lrt /etc/
+  245  16/04/26 05:16:28 pwd
+  246  16/04/26 05:16:30 ls -lrt
+  247  16/04/26 05:17:10 curl http://54.84.214.88/
+  248  16/04/26 05:17:19 whereis nginx
+  249  16/04/26 05:17:57 ps -ef 
+  250  16/04/26 05:18:05 ps -ef |grep nginx
+  251  16/04/26 05:18:13 whereis nginx
+  252  16/04/26 05:20:14 pwd
+  253  16/04/26 05:20:16 ls -lrt
+  254  16/04/26 05:20:57 docker ps
+  255  16/04/26 05:21:06 docker status 8c6b45460e08
+  256  16/04/26 05:22:24 docker exec  -it 8c6b45460e08
+  257  16/04/26 05:22:49 docker exec  -it 8c6b45460e08 ssh
+  258  16/04/26 05:22:55 docker exec  -it 8c6b45460e08 bash
+  259  16/04/26 05:37:28 docker ps
+  260  16/04/26 05:37:34 docker ps -a
+  261  16/04/26 05:37:59 docker kill 8c6b45460e08
+  262  16/04/26 05:38:02 ls -lrt
+  263  16/04/26 05:38:06 docker ps -a
+  264  16/04/26 05:38:15 docker rm nginx
+  265  16/04/26 05:38:21 docker rm -f nginx
+  266  16/04/26 05:38:27 docker rmi nginx
+  267  16/04/26 05:38:42 docker rm 8c6b45460e08
+  268  16/04/26 05:38:45 docker rmi nginx
+  269  16/04/26 05:38:57 docker images
+  270  16/04/26 05:39:14 docker rm 7f0adca1fc6c
+  271  16/04/26 05:39:32 docker rmi 7f0adca1fc6c
+  272  16/04/26 05:39:43 docker rm f 7f0adca1fc6c
+  273  16/04/26 05:39:49 docker rm -f 7f0adca1fc6c
+  274  16/04/26 05:39:59 docker images
+  275  16/04/26 05:40:30 docker rm -f  7f0adca1fc6c
+  276  16/04/26 05:40:41 docker rm nginx
+  277  16/04/26 05:40:46 docker images
+  278  16/04/26 05:40:59 docker untag nginx
+  279  16/04/26 05:41:10 docker untag nginx:latest
+  280  16/04/26 05:41:53 pwd
+  281  16/04/26 05:42:11 git https://github.com/thrivikramdevops/dockerfiles.git
+  282  16/04/26 05:42:21 git clone https://github.com/thrivikramdevops/dockerfiles.git
+  283  16/04/26 05:42:25 pwd
+  284  16/04/26 05:42:40 rpm -qa |grep git
+  285  16/04/26 05:42:46 pwd
+  286  16/04/26 05:42:54 cd dockerfiles/
+  287  16/04/26 05:42:55 ls -lrt
+  288  16/04/26 05:42:59 git init
+  289  16/04/26 05:43:12 cd FROM/
+  290  16/04/26 05:43:13 ls -lr
+  291  16/04/26 05:43:15 ls -lrt
+  292  16/04/26 05:43:38 docker build -t .
+  293  16/04/26 05:43:59 docker build -t nginx .
+  294  16/04/26 05:44:42 docker images
+  295  16/04/26 05:47:51 docker ps
+  296  16/04/26 05:47:55 docker ps-a
+  297  16/04/26 05:47:57 docker ps -a
+  298  16/04/26 05:48:24 docker rm nginx:latest
+  299  16/04/26 05:48:31 docker rm -t nginx:latest
+  300  16/04/26 05:48:41 docker rm 456f20e540a9
+  301  16/04/26 05:48:46 docker rm -f 456f20e540a9
+  302  16/04/26 05:49:01 docker build -t from .
+  303  16/04/26 05:49:11 docker images
+  304  16/04/26 05:51:29 docker login
+  305  16/04/26 05:52:30 docker images
+  306  16/04/26 05:52:39 docker push from:latest
+  307  16/04/26 05:53:31 docker push docker.io/thrivikramdevops/from
+  308  16/04/26 05:54:43 docker images
+  309  16/04/26 05:55:12 docker tag from:latest thrivikramdevops/from:latest
+  310  16/04/26 05:55:15 docker images
+  311  16/04/26 05:56:20 docker push docker.io/thrivikramdevops/from
+  312  16/04/26 05:58:19 docker inspect from:latest
+  313  16/04/26 05:58:53 docker pull nginx
+  314  16/04/26 05:58:57 docker images
+  315  16/04/26 05:59:09 docker pull nodejs
+  316  16/04/26 05:59:37 docker inspect nginx:latest
+  317  16/04/26 06:01:50 pwd
+  318  16/04/26 06:03:39 docker ps -a
+  319  16/04/26 06:03:43 docker ps -a -q
+  320  16/04/26 06:03:56 docker rm 'docker ps -a -q'
+  321  16/04/26 06:04:04 docker rm -f 'docker ps -a -q'
+  322  16/04/26 06:04:42 docker rmi images -f 'docker ps -a -q'
+  323  16/04/26 06:04:55 docker -f  rmi images 'docker ps -a -q'
+  324  16/04/26 06:05:01 docker -f rmi images 'docker ps -a -q'
+  325  16/04/26 06:05:09 docker -f rm images 'docker ps -a -q'
+  326  16/04/26 06:05:19 docker rm -f images 'docker ps -a -q'
+  327  16/04/26 06:05:25 docker images 
+  328  16/04/26 06:06:09 docker rmi -f images 'docker ps -a -q'
+  329  16/04/26 06:06:24 docker images
+  330  16/04/26 06:06:27 docker images -a
+  331  16/04/26 06:06:30 docker images -a -q
+  332  16/04/26 06:06:49 docker rmi images 'docker images -a -q'
+  333  16/04/26 06:06:58 docker rmi images -f 'docker images -a -q'
+  334  16/04/26 06:07:08 docker rmi -f images 'docker images -a -q'
+  335  16/04/26 06:07:15 docker images
+  336  16/04/26 06:07:34 docker rmi -f images 'docker images -a -q'
+  337  16/04/26 06:07:41 docker images
+  338  16/04/26 06:07:58 docker rm cbc4ded26947
+  339  16/04/26 06:08:05 docker rm -f  cbc4ded26947
+  340  16/04/26 06:08:12 docker rmi -f  cbc4ded26947
+  341  16/04/26 06:08:24 docker rmi -f 'docker images -a -q'
+  342  16/04/26 06:08:33 'docker images -a -q'
+  343  16/04/26 06:08:47 docker images
+  344  16/04/26 06:11:30 docker ps -a -q
+  345  16/04/26 06:11:48 docker rm -f 'docker ps -a -q'
+  346  16/04/26 06:11:58 docker rm 'docker ps -a -q'
+  347  16/04/26 06:12:08 docker rm 18494f127c4f
+  348  16/04/26 06:12:16 docker ps -a -q
+  349  16/04/26 06:12:20 docker ps -a
+  350  16/04/26 06:12:26 docker images
+  351  16/04/26 06:14:36 docker rmi -f 'docker images -a -q'
+  352  16/04/26 06:14:44 docker images
+  353  16/04/26 06:14:53 docker rm 7f0adca1fc6c
+  354  16/04/26 06:15:02 docker rmi 7f0adca1fc6c
+  355  16/04/26 06:16:00 docker pull thrivikramdevops/from
+  356  16/04/26 06:16:52 cd ../RUN/
+  357  16/04/26 06:16:59 docker build --no-cache --progress=plain -t run:v1
+  358  16/04/26 06:19:17 docker build -t run:v1
+  359  16/04/26 06:19:36 docker buildx build -t run:v1
+  360  16/04/26 06:20:12 sudo dnf install docker -y
+  361  16/04/26 06:20:31 docker build -t run:v1
+  362  16/04/26 06:20:41 docker buildx build --help'
+  363  16/04/26 06:20:46 docker buildx build --help
+  364  16/04/26 06:21:51 docker images
+  365  16/04/26 06:22:29 docker build -t run:v1 .
+  366  16/04/26 06:24:50 docker build --no-cache --progress-t run:v1 .
+  367  16/04/26 06:24:55 docker build --no-cache --progress -t run:v1 .
+  368  16/04/26 06:25:12 docker build --no-cache --progress:plain -t run:v1 .
+  369  16/04/26 06:25:41 docker build -t --no-cache --progress:plain run:v1 .
+  370  16/04/26 06:25:54 docker build --no-cache --progress=plain -t run:v1 .
+  371  16/04/26 06:26:49 docker images
+  372  16/04/26 06:26:59 docker ps
+  373  16/04/26 06:27:02 docker ps -a
+  374  16/04/26 07:13:49 pwd
+  375  16/04/26 07:13:50 clear
+  376  16/04/26 07:14:01 docker ps
+  377  16/04/26 07:14:05 docker images
+  378  16/04/26 07:14:26 cd  dockerfiles/CMD/
+  379  16/04/26 07:15:39 git pull
+  380  16/04/26 07:15:45 ls -lrt
+  381  16/04/26 07:15:50 cat Dockerfile 
+  382  16/04/26 07:16:34 docker build -t cmd:v1 .
+  383  16/04/26 07:16:49 ps -ef |grep nginx
+  384  16/04/26 07:17:19 curl https://172-31-26-147:80
+  385  16/04/26 07:17:50 docker images
+  386  16/04/26 07:18:06 docker run cmd:v1
+  387  16/04/26 07:18:52 docker run -d cmd:v1
+  388  16/04/26 07:18:59 ps -ef |grep nginx
+  389  16/04/26 07:19:45 docker images
+  390  16/04/26 07:19:50 docker ps -a
+  391  16/04/26 07:20:23 docker ps --no-trunc
+  392  16/04/26 07:21:00 docker images
+  393  16/04/26 07:21:06 docker ps -a
+  394  16/04/26 07:21:12 docker ps -a -q
+  395  16/04/26 07:21:31 docker stop de858b54d754
+  396  16/04/26 07:21:35 docker ps -a -q
+  397  16/04/26 07:21:39 docker ps -a
+  398  16/04/26 07:21:45 docker images
+  399  16/04/26 07:21:59 docker rm -f 'docker ps -a -q'
+  400  16/04/26 07:22:12 docker images
+  401  16/04/26 07:22:24 docker rmi 57c79e7dd214
+  402  16/04/26 07:22:34 docker rmi 2547f062ccd2
+  403  16/04/26 07:22:40 docker images
+  404  16/04/26 07:22:55 docker rm -f 2547f062ccd2
+  405  16/04/26 07:22:59 docker rmi -f 2547f062ccd2
+  406  16/04/26 07:23:04 ls -lrt
+  407  16/04/26 07:23:08 docker images
+  408  16/04/26 07:23:38 docker build -t cmd:v1 .
+  409  16/04/26 07:24:37 git pull
+  410  16/04/26 07:24:48 docker images
+  411  16/04/26 07:24:52 docker build -t cmd:v1 .
+  412  16/04/26 07:25:24 docker build -t --no-cache --progress:plain cmd:v1 .
+  413  16/04/26 07:26:25 docker build --no-cache --progress:plain -t cmd:v1 .
+  414  16/04/26 07:26:59 docker build --no-cache --progress=plain -t cmd:v1 .
+  415  16/04/26 07:28:55 pwd
+  416  16/04/26 07:28:59 ls -lrt
+  417  16/04/26 07:29:06 cat Dockerfile 
+  418  16/04/26 07:34:27 pwd
+  419  16/04/26 07:34:34 git pull
+  420  16/04/26 07:34:43 cd  ../LABEL/
+  421  16/04/26 07:34:48 ls -lrt
+  422  16/04/26 07:35:00 docker images
+  423  16/04/26 07:35:34 docker build -t label:v1
+  424  16/04/26 07:35:41 docker build -t label:v1 .
+  425  16/04/26 07:35:47 docker build -t label:v1 Dockerfile 
+  426  16/04/26 07:35:53 docker build -t label:v1 Dockerfile
+  427  16/04/26 07:35:59 docker build -t label:v1 .
+  428  16/04/26 07:36:07 docker images
+  429  16/04/26 07:36:19 docker inspect label:v1 
+  430  16/04/26 07:37:13 docker inspect nginx
+  431  16/04/26 07:37:24 docker pull nginx
+  432  16/04/26 07:37:37 docker images
+  433  16/04/26 07:37:51 docker inspect nginx:latest
+  434  16/04/26 07:38:43 docker images -f label
+  435  16/04/26 07:39:13 docker images -f--help
+  436  16/04/26 07:39:24 docker -f--help
+  437  16/04/26 07:40:39 docker images -f "label=trainer=vikram"
+  438  16/04/26 07:40:44 docker images -f "label=trainer=Vikram"
+  439  16/04/26 07:45:21 docker build -t expose:v1 .
+  440  16/04/26 07:46:05 netstat -lntp
+  441  16/04/26 07:18:38 ps -ef |grep java
+  442  16/04/26 07:18:43 ps -ef |grep nginx
+  443  16/04/26 07:13:49 pwd
+  444  16/04/26 07:13:50 clear
+  445  16/04/26 07:14:01 docker ps
+  446  16/04/26 07:14:05 docker images
+  447  16/04/26 07:14:26 cd  dockerfiles/CMD/
+  448  16/04/26 07:15:39 git pull
+  449  16/04/26 07:15:45 ls -lrt
+  450  16/04/26 07:15:50 cat Dockerfile 
+  451  16/04/26 07:16:34 docker build -t cmd:v1 .
+  452  16/04/26 07:16:49 ps -ef |grep nginx
+  453  16/04/26 07:17:19 curl https://172-31-26-147:80
+  454  16/04/26 07:17:50 docker images
+  455  16/04/26 07:18:06 docker run cmd:v1
+  456  16/04/26 07:18:52 docker run -d cmd:v1
+  457  16/04/26 07:18:59 ps -ef |grep nginx
+  458  16/04/26 07:19:45 docker images
+  459  16/04/26 07:19:50 docker ps -a
+  460  16/04/26 07:20:23 docker ps --no-trunc
+  461  16/04/26 07:21:00 docker images
+  462  16/04/26 07:21:06 docker ps -a
+  463  16/04/26 07:21:12 docker ps -a -q
+  464  16/04/26 07:21:31 docker stop de858b54d754
+  465  16/04/26 07:21:35 docker ps -a -q
+  466  16/04/26 07:21:39 docker ps -a
+  467  16/04/26 07:21:45 docker images
+  468  16/04/26 07:21:59 docker rm -f 'docker ps -a -q'
+  469  16/04/26 07:22:12 docker images
+  470  16/04/26 07:22:24 docker rmi 57c79e7dd214
+  471  16/04/26 07:22:34 docker rmi 2547f062ccd2
+  472  16/04/26 07:22:40 docker images
+  473  16/04/26 07:22:55 docker rm -f 2547f062ccd2
+  474  16/04/26 07:22:59 docker rmi -f 2547f062ccd2
+  475  16/04/26 07:23:04 ls -lrt
+  476  16/04/26 07:23:08 docker images
+  477  16/04/26 07:23:38 docker build -t cmd:v1 .
+  478  16/04/26 07:24:37 git pull
+  479  16/04/26 07:24:48 docker images
+  480  16/04/26 07:24:52 docker build -t cmd:v1 .
+  481  16/04/26 07:25:24 docker build -t --no-cache --progress:plain cmd:v1 .
+  482  16/04/26 07:26:25 docker build --no-cache --progress:plain -t cmd:v1 .
+  483  16/04/26 07:26:59 docker build --no-cache --progress=plain -t cmd:v1 .
+  484  16/04/26 07:28:55 pwd
+  485  16/04/26 07:28:59 ls -lrt
+  486  16/04/26 07:29:06 cat Dockerfile 
+  487  16/04/26 07:34:27 pwd
+  488  16/04/26 07:34:34 git pull
+  489  16/04/26 07:34:43 cd  ../LABEL/
+  490  16/04/26 07:34:48 ls -lrt
+  491  16/04/26 07:35:00 docker images
+  492  16/04/26 07:35:34 docker build -t label:v1
+  493  16/04/26 07:35:41 docker build -t label:v1 .
+  494  16/04/26 07:35:47 docker build -t label:v1 Dockerfile 
+  495  16/04/26 07:35:53 docker build -t label:v1 Dockerfile
+  496  16/04/26 07:35:59 docker build -t label:v1 .
+  497  16/04/26 07:36:07 docker images
+  498  16/04/26 07:36:19 docker inspect label:v1 
+  499  16/04/26 07:37:13 docker inspect nginx
+  500  16/04/26 07:37:24 docker pull nginx
+  501  16/04/26 07:37:37 docker images
+  502  16/04/26 07:37:51 docker inspect nginx:latest
+  503  16/04/26 07:38:43 docker images -f label
+  504  16/04/26 07:39:13 docker images -f--help
+  505  16/04/26 07:39:24 docker -f--help
+  506  16/04/26 07:40:39 docker images -f "label=trainer=vikram"
+  507  16/04/26 07:40:44 docker images -f "label=trainer=Vikram"
+  508  16/04/26 07:45:21 docker build -t expose:v1 .
+  509  16/04/26 07:46:05 netstat -lntp
+  510  16/04/26 08:51:21 pwd
+  511  16/04/26 08:51:40 history >>16April2026
